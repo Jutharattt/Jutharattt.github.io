@@ -2,62 +2,141 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jutharat Ponta - Portfolio</title>
+    <title>Portfolio - Jutharat.github.io</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- รูปภาพและชื่อ-สกุล (เติมชื่อไฟล์รูปภาพของคุณในช่อง [...]) -->
-    <img src="profile.jpg" alt="Profile Picture" width="200">
-    <h1>Jutharat Ponta</h1>
 
-    <!-- ข้อมูลการศึกษา -->
-    <h2>Education</h2>
-    <ul>
-        <li>Bachelor of Science in Data Science (Expected Graduation: 2029)</li>
-        <li>School of Information and Communication Technology (ICT), University of Phayao, Thailand</li>
-        <li>High School: Wiang Pa Pao Witthayakhom School</li>
-        <li>Primary School: Wiang Pa Pao School</li>
-    </ul>
+    <div class="container">
+        <!-- ส่วนหัว (Header): รูปซ้าย ข้อมูลชื่อ-ตำแหน่งขวา ตามรูปที่ 1 -->
+        <div class="header">
+            <div class="header-left">
+                <img src="profile.jpg" alt="Profile Photo" class="profile-img">
+            </div>
+            <div class="header-right">
+                <h1>Jutharat Ponta</h1>
+                <p class="subtitle">Data Science and Applications Student</p>
+                <p class="age">Age: 20 | Student ID: 68027036</p>
+            </div>
+        </div>
 
-    <!-- ประสบการณ์ -->
-    <h2>Experience</h2>
-    <ul>
-        <li>
-            <strong>Part-time Staff | Souvenir Shop</strong>
-            <p>Gained customer service experience, handled daily sales transactions, and assisted with inventory management in a retail environment.</p>
-        </li>
-        <li>
-            <strong>Participant | "AI for All" Project/Competition</strong>
-            <p>Collaborated in team-based activities focused on artificial intelligence applications, problem-solving, and project pitching.</p>
-        </li>
-    </ul>
+        <!-- ส่วนเนื้อหาหลักแบ่ง 2 คอลัมน์ (ซ้าย 35% / ขวา 65%) ตามรูปที่ 1 -->
+        <div class="main-content">
+            
+            <!-- คอลัมน์ซ้าย: Education, Skills, Competencies, Contact -->
+            <div class="left-column">
+                
+                <div class="section">
+                    <h2 class="pill-title">Education</h2>
+                    <p><strong>Bachelor of Science</strong></p>
+                    <p>Bachelor of Science in Data Science (Expected Graduation: 2029)</p>
+                    <p>School of Information and Communication Technology (ICT), University of Phayao, Thailand</p>
 
-    <!-- ทักษะและสมรรถนะ -->
-    <h2>Skills & Competencies</h2>
-    <ul>
-        <li>
-            <strong>Technical Skills:</strong>
-            <ul>
-                <li>Programming & Data Analysis: R, Power BI</li>
-                <li>Software: Microsoft Excel (Data organization & analysis)</li>
-            </ul>
-        </li>
-        <li>
-            <strong>Languages:</strong>
-            <ul>
-                <li>Thai (Native)</li>
-                <li>English (Proficient / Professional working proficiency)</li>
-                <li>Japanese (Conversational / Intermediate)</li>
-            </ul>
-        </li>
-    </ul>
+                    <p><strong>High School</strong></p>
+                    <p>Wiang Pa Pao Witthayakhom School</p>
+                </div>
 
-    <!-- งานอดิเรก -->
-    <h2>Hobbies & Interests</h2>
-    <ul>
-        <li>Digital/Traditional Drawing & Illustration</li>
-        <li>Reading (Non-fiction, novels, and self-development books)</li>
-        <li>Watching Films & Documentaries</li>
-    </ul>
+                <div class="section">
+                    <h2 class="pill-title">Skills</h2>
+                    <ul>
+                        <li><strong>Programming:</strong> SQL, R, MATLAB, Python</li>
+                        <li><strong>Tools:</strong> Microsoft Excel, Power BI, Canva, Git, GitHub, VS Code</li>
+                        <li>
+                            <strong>Languages:</strong> 
+                            <ul>
+                                <li>Thai (Native)</li>
+                                <li>English (Proficient / Professional working proficiency)</li>
+                                <li>Japanese (Conversational / Intermediate)</li>
+                            </ul>
+                    </ul>
+                </div>
+
+                <div class="section">
+                    <h2 class="pill-title">Competencies</h2>
+                    <ul>
+                        <li>Data Analysis & Statistical Modeling</li>
+                        <li>Data Visualization & Dashboard Reporting</li>
+                        <li> Problem Solving & Critical Thinking</li>
+                        <li>Teamwork & Collaboration</li>
+                    </ul>
+                </div>
+
+                <div class="section contact-box">
+                    <h2 class="pill-title">Contact</h2>
+                    <p><strong>Tel:</strong><br>
+                       <a href="080-6723206" target="_blank">080-6723206</a></p>
+                    <p><strong>E-mail:</strong><br>
+                        <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank">tonkaow3324@gmail.com</a>
+                    <p>
+                       <strong>GitHub:</strong><br>
+                       <a href="https://github.com/Jutharattt" target="_blank">Jutharat Ponta</a>
+                    </p>
+                </div>
+
+            </div>
+
+            <!-- เส้นคั่นกลางแนวตั้ง ตามรูปที่ 1 -->
+            <div class="divider"></div>
+
+            <!-- คอลัมน์ขวา: About Me, Experience, Hobbies -->
+            <div class="right-column">
+                
+                <div class="section">
+                    <h2 class="pill-title">Summary</h2>
+                    <p>
+                        I am a second-year student majoring in Data Science at Phayao University. I have hands-on experience in statistical data forecasting, relational database design, and data visualization. I am proficient in using Python, R, SQL, MATLAB, and Power BI. I am determined to apply analytical models and AI technologies to solve business problems, and I hope to work in a data-related field, such as a Data Analyst or Data Scientist, after graduation. 
+                    </p>
+                </div>
+
+                <div class="section">
+                    <h2 class="pill-title">Experience</h2>
+                    
+                    <div class="exp-item">
+                        <p><strong>Certificate of Completion</strong></p>
+                        <p>
+                            "AI FOR ALL" Training Program
+                             From Thammasat University Research and Consultancy Institute
+                        </p>
+                    </div>
+
+                    <div class="exp-item">
+                        <p><strong>Electricity Consumption Forecasting with SARIMA</strong></p>
+                        <p>
+                            University of Phayao · Academic Project
+                             Built a seasonal ARIMA model in R to forecast 72 months of office-building electricity usage. Tested stationarity (ADF), compared candidate models via ACF/PACF, validated residuals (Ljung-Box), and selected ARIMA(1,1,2)(0,1,1)[12].
+                        </p>
+                    </div>
+
+                    <div class="exp-item">
+                        <p><strong>Database Analysis and Design</strong></p>
+                        <p>
+                          <ul>
+                              <li>Analyzed stakeholders and business rules to define system requirements.</li>
+                              <li>Created use case diagrams and descriptions to model system functions.</li>
+                              <li>Built a data dictionary listing key entities and attributes.</li>
+                              <li>Designed an ER diagram and relational schema, defining keys, relationships, cardinality, and multivalued/derived attributes.</li>
+                              <li>Applied database normalization to reduce data redundancy.</li>
+                              <li>Implemented the database in MySQL.</li>
+                         </ul>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h2 class="pill-title">Hobbies</h2>
+                    <ul>
+                        <li>Creative Arts & Drawing</li>
+                        <li>Photo & Video Editing</li>
+                        <li>Reading & Self-development</li>
+                        <li>Film Appreciation</li>
+                        <li>Cooking</li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
 </body>
 </html>

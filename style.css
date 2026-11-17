@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #222;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 850px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 40px;
+    border: 1px solid #ddd;
+}
+
+/* ส่วนหัว: รูปวงกลมซ้าย + ชื่อขวา */
+.header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.header-left {
+    width: 35%;
+    text-align: center;
+}
+
+.profile-img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #333;
+}
+
+.header-right {
+    width: 65%;
+    padding-left: 20px;
+}
+
+.header-right h1 {
+    margin: 0 0 8px 0;
+    font-size: 28px;
+}
+
+.subtitle {
+    font-size: 18px;
+    margin: 0 0 5px 0;
+    color: #444;
+}
+
+.age {
+    font-size: 14px;
+    color: #666;
+    margin: 0;
+}
+
+/* ส่วนเนื้อหา 2 คอลัมน์ */
+.main-content {
+    display: flex;
+}
+
+.left-column {
+    width: 35%;
+    padding-right: 20px;
+}
+
+.divider {
+    width: 1px;
+    background-color: #333;
+    margin: 0 15px;
+}
+
+.right-column {
+    width: 65%;
+    padding-left: 15px;
+}
+
+/* หัวข้อกรอบมนตามรูปที่ 1 */
+.pill-title {
+    display: inline-block;
+    border: 1.5px solid #333;
+    border-radius: 20px;
+    padding: 5px 20px;
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.section {
+    margin-bottom: 25px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.section ul {
+    padding-left: 18px;
+    margin: 0;
+}
+
+.section li {
+    margin-bottom: 6px;
+}
+
+.exp-item {
+    margin-bottom: 15px;
+}
+
+.date {
+    font-weight: bold;
+    color: #555;
+    margin: 2px 0;
+}
